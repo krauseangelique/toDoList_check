@@ -30,3 +30,7 @@ https://www.pierre-giraud.com/flexbox-css/
 
 Javascript injection:
 https://code-boxx.com/javascript-injection-beginners/#sec-basics
+
+To construct javascript Webside
+https://dyma.fr/javascript?gclid=EAIaIQobChMIlLTh8Jyj-QIVmcx3Ch0TLQEmEAMYAiAAEgKUofD_BwE
+
