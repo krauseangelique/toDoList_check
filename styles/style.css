@@ -1,0 +1,7 @@
+.inLine{
+    display: flex;
+    justify-content:space-between;
+}
+.input{
+    display: flex;
+}
