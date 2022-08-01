@@ -1,4 +1,19 @@
-.inLine {
+/* environement */
+main {
+    max-width: 80rem;
+    margin: 0 auto;
+    background-color: #F4CAB1;
+}
+
+/* image */
+.octo {
+    display: block;
+    margin: 0 auto;
+}
+
+/* placement display */
+.inLine,
+#taskList {
     display: flex;
     justify-content: space-between;
 }
@@ -7,6 +22,17 @@
     display: flex;
 }
 
+/*prettier button */
 input {
     margin: 10px;
+}
+
+/* prettier text */
+.toBeDone {
+    font-size: 1.7rem;
+}
+
+.done,
+.added {
+    margin-left: 10px;
 }

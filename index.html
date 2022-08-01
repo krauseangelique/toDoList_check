@@ -12,30 +12,36 @@
 </head>
 
 <body>
-    <header>
-        <h1>To do list: challenge 5 days 🧭</h1>
-    <h2>Add you Task</h2>
-    <form action="index.html" method="get"></form>
-    <label for="task"></label>
-    <input type="text" name="adTask" id="task" placeholder="Please Enter a New Task" value="uvuwewewe onyetenyevwe uvwewenum osas"/>
-    <input type="button" id= "add" value="Add" onclick="hijack()"/>
-    </header>
-    <section>
-        <h2 class="toBeDone">Has to be done</h2>
-        <div class="inLine">
-            
-                <p class="done">First task <script>alert("HAHA!");</script></p>
-    
-            
-            <div class="input">
-                <input type="button" value="Done" id="done"/>
-                <input type="button" value="Delete" id="delete"/>
-            </div>
-        </div>    
-        
-    </section>
+    <main>
+        <header>
+            <h1>To do list: challenge 5 days 🧭</h1>
+            <h2>Add your Task</h2>
+            <form action="index.html" method="get"></form>
+            <label for="task"></label>
+            <input type="text" name="adTask" id="task" placeholder="Please Enter a New Task" />
+            <input type="button" id="add" value="Add" />
+        </header>
 
-    
+        <section>
+            <h2 class="toBeDone">Has to be done</h2>
+            <div class="foto">
+                <img src="./resources/images/Octocat_gitHub_800_665.png" width="150px" alt="octocat gitHub"
+                    class="octo" />
+            </div>
+            <div class="inLine">
+                <p class="done">First task</p>
+                <div class="input">
+                    <input type="button" value="Done" id="done" />
+                    <input type="button" value="Delete" id="delete" />
+                </div>
+            </div>
+
+            <div id="taskList"></div>
+
+        </section>
+    </main>
+
+
 
 
 </body>

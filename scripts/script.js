@@ -1,7 +1,6 @@
-// The begining of my Javascript code
+// write into HTML document
+const taslList = document.getElementById("taskList");
+taslList.innerHTML = "<p class='added'>message</p><div class='input'><input type='button' value='Done' id='done'><input type='button' value='Delete' id='delete'></div>";
 
-// click on add
-function hijack() {
-    console.log("HIJACKED");
-}
-
+let boxElem = document.querySelector(".box");
+boxElem.addEventListener("click", logEvent);
