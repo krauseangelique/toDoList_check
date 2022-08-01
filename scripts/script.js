@@ -1,7 +1,7 @@
-// The beginning of my Javascript code
+// The begining of my Javascript code
 
 // click on add
-function hijack () {
+function hijack() {
     console.log("HIJACKED");
 }
 
