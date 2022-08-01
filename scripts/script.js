@@ -1,5 +1,5 @@
 // write into HTML document
-const taslList = document.querySelector("inline");
+const row = document.querySelector(".inLineRow");
 let boxElem = document.querySelector("#add");
 let task = document.querySelector('#task');
 
@@ -10,17 +10,16 @@ boxElem.addEventListener("click", function () {
 
     //  div.innerHTML =
     let z = document.createElement('div'); // is a node
-    z.innerHTML += `
+    z.classList.add('inLine');
+    z.innerHTML = `
     <p class="done">${task.value}</p>
         <div class="input">
             <input type="button" value="Done" id="done" />
             <input type="button" value="Delete" id="delete" />
         </div>
     `;
-    document.body.appendChild(z);
-
-
-
-
+    row.appendChild(z); // add the content of the inLineRow div
 
 });
+
+
