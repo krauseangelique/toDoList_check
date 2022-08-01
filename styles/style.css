@@ -5,6 +5,11 @@ main {
     background-color: #F4CAB1;
 }
 
+h1,
+h2 {
+    margin-left: 10px;
+}
+
 /* image */
 .octo {
     display: block;
