@@ -1,4 +1,8 @@
 /* environement */
+body {
+    height: 100vh;
+}
+
 main {
     max-width: 80rem;
     margin: 0 auto;
@@ -10,10 +14,16 @@ h2 {
     margin-left: 10px;
 }
 
+.dashed {
+    /*text-decoration: dashed rgb(156, 218, 240); */
+    text-decoration: rgb(156, 218, 240) dashed underline;
+}
+
 /* image */
 .octo {
     display: block;
     margin: 0 auto;
+    width: 7rem;
 }
 
 /* placement display */
@@ -35,9 +45,15 @@ input {
 /* prettier text */
 .toBeDone {
     font-size: 1.7rem;
+    text-decoration: solid underline overline rgb(156, 218, 240) 6px;
 }
 
 .done,
 .added {
     margin-left: 10px;
+}
+
+#done {
+    background-image: rgb(124, 186, 230);
+    background-image: linear-gradient(to right, #ac5c51, #bb6a85, #b282b6, #979fd8, #7cbae6);
 }
