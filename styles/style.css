@@ -27,7 +27,7 @@ input {
 
 .dashed {
     /*text-decoration: dashed rgb(156, 218, 240); */
-    text-decoration: rgb(156, 218, 240) dashed underline;
+    text-decoration: 2px rgb(156, 218, 240) dashed underline;
 }
 
 /* image */
@@ -56,7 +56,7 @@ input {
 /* prettier text */
 .toBeDone {
     font-size: 1.7rem;
-    text-decoration: solid underline overline rgb(156, 218, 240) 6px;
+    text-decoration: solid underline overline rgb(156, 218, 240) 5px;
 }
 
 .done,
@@ -67,4 +67,8 @@ input {
 #done {
     background-image: rgb(124, 186, 230);
     background-image: linear-gradient(to right, #ac5c51, #bb6a85, #b282b6, #979fd8, #7cbae6);
+}
+
+#delete {
+    background-color: rgb(201, 54, 54, 0.7);
 }

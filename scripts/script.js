@@ -22,9 +22,14 @@ boxElem.addEventListener("click", function () {
 
     let elementDone = document.getElementById("done");
     console.log(elementDone);
-    // new value of Doone button
+    
+    
+    elementDone.onclick = function () {
+        // new value of Done button
     elementDone.value = "Undo";
     console.log(elementDone);
+
+    }
 
 });
 
