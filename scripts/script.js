@@ -20,10 +20,12 @@ boxElem.addEventListener("click", function () {
     `;
     row.appendChild(z); // add the content of the inLineRow div
 
+    let elementDone = document.getElementById("done");
+    console.log(elementDone);
+    // new value of Doone button
+    elementDone.value = "Undo";
+    console.log(elementDone);
+
 });
 
-let elementDone = document.getElementById("done");
-console.log()
-elementDone;
-elementDone.value = "Undo";
-console.log(elementDone);
+
