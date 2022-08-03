@@ -34,3 +34,7 @@ https://code-boxx.com/javascript-injection-beginners/#sec-basics
 To construct javascript Webside
 https://dyma.fr/javascript?gclid=EAIaIQobChMIlLTh8Jyj-QIVmcx3Ch0TLQEmEAMYAiAAEgKUofD_BwE
 
+to change value into en element
+https://www.delftstack.com/fr/howto/javascript/change-input-value-javascript/#modifier-la-valeur-dentr%25C3%25A9e-%25C3%25A0-laide-de-la-propri%25C3%25A9t%25C3%25A9-value-en-javascript
+
+

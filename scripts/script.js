@@ -22,4 +22,8 @@ boxElem.addEventListener("click", function () {
 
 });
 
-
+let elementDone = document.getElementById("done");
+console.log()
+elementDone;
+elementDone.value = "Undo";
+console.log(elementDone);
