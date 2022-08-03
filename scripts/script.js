@@ -12,25 +12,26 @@ boxElem.addEventListener("click", function () {
     let z = document.createElement('div'); // is a node
     z.classList.add('inLine');
     z.innerHTML = `
-    <p class="done">${task.value}</p>
+    <p class="todone">${task.value}</p>
         <div class="input">
-            <input type="button" value="Done" id="done" />
+            <input type="button" value="Done" class="done" />
             <input type="button" value="Delete" id="delete" />
         </div>
     `;
     row.appendChild(z); // add the content of the inLineRow div
 
-    let elementDone = document.getElementById("done");
+    let elementDone = document.querySelector(".done");
     console.log(elementDone);
-    
     
     elementDone.onclick = function () {
+
         // new value of Done button
-    elementDone.value = "Undo";
-    console.log(elementDone);
-
-    }
-
+        elementDone.value = "Undo";
+        console.log(elementDone);
+        //  new backgroundColor
+        elementDone.style.color = `white`;
+        console.log(elementDone);
+    }      
 });
 
 

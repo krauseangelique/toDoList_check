@@ -46,25 +46,28 @@ input {
 
 .input {
     display: flex;
+    
 }
 
 /*prettier button */
 input {
     margin: 10px;
+    
 }
+
 
 /* prettier text */
 .toBeDone {
     font-size: 1.7rem;
-    text-decoration: solid underline overline rgb(156, 218, 240) 5px;
+    text-decoration: solid underline overline rgb(156, 218, 240) 4px;
 }
 
-.done,
+.todone,
 .added {
     margin-left: 10px;
 }
 
-#done {
+.done {
     background-image: rgb(124, 186, 230);
     background-image: linear-gradient(to right, #ac5c51, #bb6a85, #b282b6, #979fd8, #7cbae6);
 }
