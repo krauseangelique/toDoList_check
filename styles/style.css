@@ -74,6 +74,13 @@ input {
     background-image: linear-gradient(to right, #ac5c51, #bb6a85, #b282b6, #979fd8, #7cbae6);
 }
 
+#add {
+    background-color: #ac5c51;
+    margin-left: 1px;
+    border-color: rgb(124, 186, 230);
+    box-shadow: 4px 3px 5px grey;
+}
+
 .delete {
     background-color: rgba(217, 31, 31, 0.847);
 }
