@@ -20,15 +20,17 @@ h2 {
 h1 {
     font-weight: 400;
     margin-top: 10px;
-}
-
-input {
-    border-radius: 6px;
+    padding-top: 15px;
 }
 
 .dashed {
     /*text-decoration: dashed rgb(156, 218, 240); */
     text-decoration: 2px rgb(156, 218, 240) dashed underline;
+}
+
+input {
+    border-radius: 6px;
+    margin: 10px;
 }
 
 /* image */
@@ -38,6 +40,7 @@ input {
     width: 6rem;
 }
 
+/* your tasks */
 .yourTasks {
     margin-left: 5px;
     padding-bottom: 10px;
@@ -52,17 +55,9 @@ input {
 
 .input {
     display: flex;
-
 }
 
-/*prettier button */
-input {
-    margin: 10px;
-
-}
-
-
-/* prettier text */
+/* prettier text and button */
 .toBeDone {
     font-size: 1.7rem;
     text-decoration: solid underline overline rgb(156, 218, 240) 4px;
