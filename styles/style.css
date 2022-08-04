@@ -19,6 +19,7 @@ h2 {
 
 h1 {
     font-weight: 400;
+    margin-top: 10px;
 }
 
 input {
@@ -35,6 +36,11 @@ input {
     display: block;
     margin: 0 auto;
     width: 7rem;
+}
+
+.yourTasks {
+    margin-left: 5px;
+    padding-bottom: 10px;
 }
 
 /* placement display */
@@ -73,7 +79,7 @@ input {
 }
 
 .delete {
-    background-color: rgba(212, 42, 42, 0.8);
+    background-color: rgba(217, 31, 31, 0.847);
 }
 
 .undo {
