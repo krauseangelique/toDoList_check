@@ -5,23 +5,24 @@ let task = document.querySelector('#task');
 
 // click hover the element
 boxElem.addEventListener("click", function () {
-    let div = document.createElement('div');
-    div.classList.add('inline');
+
 
     //  div.innerHTML =
     let z = document.createElement('div'); // is a node
     z.classList.add('inLine');
     z.innerHTML = `
     <p class="todone">${task.value}</p>
-        <div class="input">
-            <input type="button" value="Done" class="done" />
-            <input type="button" value="Delete" class="delete" />
+        <div class="buttons">
+            
+            <button class="done">Done</button>
+            <button class="delete">Delete</button>
         </div>
     `;
     row.appendChild(z); // add the content of the inLineRow div
     task.value = ""; // to clear the input task 
 
-    let buttons = document.querySelectorAll(".input input");
+    let buttons = document.querySelectorAll(".inLine .buttons button");
+    console.log(buttons);
 
     buttons.forEach(btn => {
         btn.addEventListener('click', function () {
@@ -29,7 +30,7 @@ boxElem.addEventListener("click", function () {
                 btn.classList.toggle('undo'); // done <=> undo
                 console.log(btn);
                 // new value of Done button
-                btn.value === "Done" ? btn.value = "Undo" : btn.value = "Done";
+                btn.innerHTML === "Done" ? btn.innerHTML = "Undo" : btn.innerHTML = "Done";
             }
 
 

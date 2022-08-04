@@ -31,6 +31,7 @@ h1 {
 input {
     border-radius: 6px;
     margin: 10px;
+    max-width: 12rem;
 }
 
 /* image */
@@ -84,4 +85,12 @@ input {
     border: 2px solid #ac5c51;
     color: white;
     font-weight: bold;
+}
+
+.buttons>button {
+    max-width: 7rem;
+    padding: 10px;
+    border-radius: 6px;
+    margin-right: 10px;
+
 }
