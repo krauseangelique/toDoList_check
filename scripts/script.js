@@ -15,23 +15,31 @@ boxElem.addEventListener("click", function () {
     <p class="todone">${task.value}</p>
         <div class="input">
             <input type="button" value="Done" class="done" />
-            <input type="button" value="Delete" id="delete" />
+            <input type="button" value="Delete" class="delete" />
         </div>
     `;
     row.appendChild(z); // add the content of the inLineRow div
+    task.value = ""; // to clear the input task 
 
-    let elementDone = document.querySelector(".done");
-    console.log(elementDone);
-    
-    elementDone.onclick = function () {
+    let buttons = document.querySelectorAll(".input input");
 
-        // new value of Done button
-        elementDone.value = "Undo";
-        console.log(elementDone);
-        //  new backgroundColor
-        elementDone.style.color = `white`;
-        console.log(elementDone);
-    }      
+    buttons.forEach(btn => {
+        btn.addEventListener('click', function () {
+            if (btn.classList.contains('done')) {
+                btn.classList.toggle('undo'); // done <=> undo
+                console.log(btn);
+                // new value of Done button
+                btn.value === "Done" ? btn.value = "Undo" : btn.value = "Done";
+            }
+
+
+            if (btn.classList.contains('delete')) {
+                btn.parentElement.parentElement.remove() // the granddad from the element and remove it
+
+            }
+
+        });
+    });
+
 });
-
 
