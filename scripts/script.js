@@ -2,8 +2,9 @@
 
 // Add Task
 const btnAddTask = document.getElementById('add');
+console.log(btnAddTask);
 const task = document.getElementById('task');
-
+console.log(task);
 // add the task and the buttons Done and Delete
 const row = document.querySelector(".inLineRow");
 const inLine = document.querySelector(".inLine");
@@ -25,6 +26,7 @@ btnAddTask.addEventListener("click", function () {
 
     const taskDiv = document.createElement('div');
     taskDiv.classList.add('inLine');
+    console.log(taskDiv);
     let newElement = document.createElement('div'); // is a node
     newElement.classList.add('inLine');
 
