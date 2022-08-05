@@ -24,6 +24,11 @@ h1 {
     padding-top: 15px;
 }
 
+span {
+    margin-left: 1rem;
+    font-size: 80%;
+}
+
 .dashed {
     /*text-decoration: dashed rgb(156, 218, 240); */
     text-decoration: 2px rgb(156, 218, 240) dashed underline;
@@ -87,6 +92,7 @@ input {
 }
 
 .undo {
+
     background-image: rgb(124, 186, 230);
     background-image: linear-gradient(to left, #ac5c51, #bb6a85, #b282b6, #979fd8, #7cbae6);
     border: 2px solid #ac5c51;

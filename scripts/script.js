@@ -38,6 +38,7 @@ btnAddTask.addEventListener("click", function () {
                             </div>
                             `;
 
+
     if (task.value === "") {
         return null;
     }
@@ -57,7 +58,7 @@ btnAddTask.addEventListener("click", function () {
                 console.log(btn);
 
                 // new value of Done button
-                if (btn.innerHTML === "Done") {
+                if (btn.parentElement.parentElement.innerHTML === "Done") {
                     btn.innerHTML = "Undo";
                 } else {
                     btn.innerHTML = "Done";
